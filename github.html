@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Steve Dawson Portfolio" description="Steve Dawson Softwear Web Development Portfolio">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
@@ -12,7 +13,7 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/github-information.js"></script>
-    <title>Rosie</title>
+    <title>Steve Dawson Portfolio</title>
 </head>
 
 <body>
@@ -24,29 +25,29 @@
             <div class="col-md-8">
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
-                        <h1 class="name">Rosie Odenkirk</h1>
+                        <h1 class="name">Steve Dawson</h1>
                         <h2 class="title">Full Stack Developer</h2>
                     </div>
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer row">
-                            <li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
                                 <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-resume list-inline-item menuitem">
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem">
                                 <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                             </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-contact list-inline-item menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-contact menuitem">
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class=" fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
                             </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-interests menuitem">
                                 <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
                             </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem">
                                 <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
                             </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-download menuitem">
                                 <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                             </li>
                         </ul>
@@ -60,14 +61,77 @@
         <div class="row bg-color-contact">
             <div class="col">
                 <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
-                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
 
-                <div class="center-form">
-                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
-                    <div id="gh-user-data"></div>
-                    <div id="gh-repo-data"></div>
-
+                <div class="row row-cols-4 row-cols-md-3 g-4">
+                    <div class="col-sm-4">
+                      <div class="card h-100">
+                        <img src="assets/images/cockapoo-cafe.png" class="card-img-top" alt="Cockapoo Cafe Project">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="https://github.com/Steven-Dawson18/cockapoo-cafe">Latest Project<br />
+                                Cockapoo Cafe</a></h5>
+                            <p class="card-text">This project was created using python and Django. The site is for a small Cafe
+                                with the aim of increasing people to make bookings.</p>
+                            <a href="https://github.com/Steven-Dawson18/cockapoo-cafe" class="btn btn-info">View Project</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card h-100">
+                          <img src="assets/images/rock-paper-scissors.png" class="card-img-top" alt="Rock, Paper, Scissors, Lizard, Spock Project">
+                          <div class="card-body">
+                              <h5 class="card-title"><a href="https://github.com/Steven-Dawson18/Rock-Paper-Scissors-Spock-Reloaded">Rock, Paper, Scissors, Lizard, Spock</a></h5>
+                              <p class="card-text">This project was created with HTML, CSS and Javascript. The game is a twist on the game Rock, Paper, Scissors.</p>
+                                <a href="https://github.com/Steven-Dawson18/Rock-Paper-Scissors-Spock-Reloaded" class="btn btn-info">View Project</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card h-100">
+                          <img src="assets/images/lake-district.png" class="card-img-top" alt="Lake District Cycling Project">
+                          <div class="card-body">
+                              <h5 class="card-title"><a href="https://github.com/Steven-Dawson18/lake-district-cycling">Lake District Cycling</a></h5>
+                              <p class="card-text">This site was created with HTMLand CSS for my first Project of the Code Institute Full Stack Web Developer Diploma.
+                                This website is to provide a comprehensive list of cycling routes for families with children that are beginners to
+                                families with children that are advanced cyclists and ennd fun, safe cycling routes that meed their needs.</p>
+                              
+                            <a href="https://github.com/Steven-Dawson18/lake-district-cycling" class="btn btn-info">View Project</a>
+                             
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card h-100">
+                          <img src="assets/images/hangman.png" class="card-img-top" alt="Ultimate Hangman Project">
+                          <div class="card-body">
+                              <h5 class="card-title"><a href="https://github.com/Steven-Dawson18/the_ultimate_hangman_game">Ultimate Hangman</a></h5>
+                              <p class="card-text">This project was created with python in the CLI. This was the third project on the Code Institute Full Stack Web Developer Diploma.
+                                The aim is to provide a fun and exciting game where the user can escape the toils of day to day life for a few moments.</p> 
+                                <a href="https://github.com/Steven-Dawson18/the_ultimate_hangman_game" class="btn btn-info">View Project</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card h-100">
+                          <img src="assets/images/safe-place.png" class="card-img-top" alt="Safe Space SODA Place Project">
+                          <div class="card-body">
+                              <h5 class="card-title"><a href="https://github.com/Steven-Dawson18/SafeSpaceSODAPlace-1">Safe Space SODA Place</a></h5>
+                              <p class="card-text">This project was created in Python and Django as part of a Hackathon with the Code Institute and Trust In Soda.</p>
+                                  <a href="https://github.com/Steven-Dawson18/SafeSpaceSODAPlace-1" class="btn btn-info">View Project</a>
+                          </div>
+                        </div>
+                    </div>
                 </div>
+
+                  <hr>
+                  <h5 class="uppercase text-center"><a href="https://github.com/Steven-Dawson18">View my full GitHub Profile</a></h5>
+                    <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+
+                    <div class="center-form">
+                        <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                        <div id="gh-user-data"></div>
+                        <div id="gh-repo-data"></div>
+
+                    </div>
 
             </div>
         </div>
